@@ -1,0 +1,21 @@
+{
+  "name": "nyhetsmorgon",
+  "version": "1.0.0",
+  "description": "fest",
+  "main": "dist/index.js",
+  "pre-commit": "build",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "author": "Leo Sandström, Erik Jakobsson",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^7.0.8",
+    "isomorphic-fetch": "^2.2.1",
+    "typescript": "^2.2.1"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  }
+}
